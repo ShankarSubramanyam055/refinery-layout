@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <title>OIL &amp; GAS COMPANY LAYOUT</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/safari.css" />
     <link rel="stylesheet" type="text/css" href="css/accordion.css" media="all" />
     <!-- Owl Carousel -->
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
     <link rel="stylesheet" type="text/css" href="css/owl.theme.css" />
     <!-- Add icon library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link href="https://fonts.googleapis.com/css?family=MontserratBlack" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link  rel="stylesheet" type="text/css" href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/slicknav.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" media="all" />
     <script type="text/javascript" src="js/html5.js"></script>
     <script type="text/javascript" src="js/modernizr.min.js"></script>
     <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>    
@@ -29,30 +32,58 @@
 	<div id="outer">
     	<header>
         	<div class="top_red">
-            	<div class="main">
-                    <div class="two-cols">Freephone: 8 (800) 500-11-00</div>
-                    <div class="two-cols"><a href="#">Petrol Stations</a><a href="#">Tenders</a><a href="#">News &amp; Events</a><a href="#">Careers</a></div>
+            	<div class="inner_40">
+                    <div class="main">
+                        <div class="two-cols">Freephone: 8 (800) 500-11-00</div>
+                        <div class="two-cols"><a href="#">Petrol Stations</a><a href="#">Tenders</a><a href="#">News &amp; Events</a><a href="#">Careers</a></div>
+                    </div>
                 </div>
             </div>
             <div class="blackbar">
-            	<div class="main">
-                	<div class="two-cols"><a href="#" class="logo"></a><a href="#" class="co_name">Alfredo Oil &amp; Gas</a></div>
-                    <div class="two-cols"><span><input type="text" id="txtSearch" placeholder="Search" class="search" /><a href="#" class="fa-search"></a></span></div>
+            	<div class="inner_40">
+                    <div class="main">
+                        <div class="two-cols"><a href="#" class="logo"></a><a href="#" class="co_name">Alfredo Oil &amp; Gas</a></div>
+                        <div class="two-cols"><span><input type="text" id="txtSearch" placeholder="Search" class="search" /><a href="#" class="fa-search"></a></span></div>
+                    </div>
                 </div>
             </div>
+            <ul id="slickmenu">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Industries</a></li>
+                    <li><a href="#">Solutions</a></li>
+                    <li><a href="#">Technology &amp; Digitalization</a></li>
+                    <li><a href="#">Products &amp; Services</a></li>
+                    <li><a href="#">Shareholders &amp; Investors</a></li>
+                    <li><a href="#">Petrol Stations</a></li>
+                    <li><a href="#">Tenders</a></li>
+                    <li><a href="#">News &amp; Events</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact Us</a></li>
+            </ul>
             <div id="menubar">
             	<div class="main">
                     <ul>
-                        <li><a href="#" class="active">Home</a><a href="#">About Us</a><a href="#">Sustainability</a><a href="#">Industries</a><a href="#">Solutions</a><a href="#">Technology &amp; Digitalization</a><a href="#">Products &amp; Services</a><a href="#">Shareholders &amp; Investors</a><a href="#">Contact Us</a></li>
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">Industries</a></li>
+                        <li><a href="#">Solutions</a></li>
+                        <li><a href="#">Technology &amp; Digitalization</a></li>
+                        <li><a href="#">Products &amp; Services</a></li>
+                        <li><a href="#">Shareholders &amp; Investors</a></li>
+                        <li><a href="#">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
             <div id="banner">
             	 <div class="video-container">
-                    <video width="100%" height="auto" autoplay muted loop>
+                    <video width="100%" height="auto" autoplay muted loop playsinline>
                       <source src="video/oil.mp4" type="video/mp4">
                       <source src="vide/oil.ogg" type="video/ogg">
                       <source src="vide/oil.webm" type="video/webm">
+                      <source src="vide/oil.mov" type="video/mov">
                         Your browser does not support the video tag.
                     </video> 
                   </div>
@@ -420,13 +451,19 @@
     <script type="text/javascript" src="js/owl.carousel.js"></script>
     <script type="text/javascript">
 		$(document).ready(function() {
-		  $("#owl-demo, #owl-demo-women").owlCarousel({
+		  $("#owl-demo").owlCarousel({
 			autoPlay: 3000,
 			items : 4,
 			itemsDesktop : [1199,4],
-			itemsDesktopSmall : [979,4]
+			itemsDesktopSmall : [979,3]
 		  });	 
 		});
+    </script>
+    <script type="text/javascript" src="js/jquery.slicknav.js"></script>
+	<script type="text/javascript">
+    $(document).ready(function(){
+        $('#slickmenu').slicknav();
+    });
     </script>
 </body>
 </html>

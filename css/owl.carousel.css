@@ -38,10 +38,10 @@
 }
 	
 .owl-carousel .owl-item{
-	margin:0 30px;
+	margin:0 0.22%;
 	width:12.5555%!important;
 	height:auto;
-	max-width:377px;
+	max-width:417px;
 	max-height:270px;
 	border:0px solid #ccc;
 	display:flex;
@@ -50,8 +50,8 @@
 
 .owl-carousel .owl-item h6{
 	margin:0;
-	padding:0 0 15px;
-	font-size:19px;
+	padding:0 0 4%;	/*padding:0 0 15px;*/
+	font-size:0.9vw;	/*font-size:19px;*/
 	font-weight:600;
 	text-transform:capitalize;
 	border-bottom:1px solid #db2b36;
@@ -59,8 +59,8 @@
 
 .owl-carousel .owl-item .date{
 	margin:0;
-	padding:10px 0;
-	font-size:16px;
+	padding:2.7% 0;	/*padding:10px 0;*/
+	font-size:0.78vw;	/*font-size:16px;*/
 	font-weight:600;
 	text-transform:capitalize;
 	border-bottom:1px solid #db2b36;
@@ -68,28 +68,28 @@
 
 .owl-carousel .owl-item .tbd{
 	margin:0;
-	padding:10px 0;
-	font-size:16px;
+	padding:2.7% 0;	/*padding:10px 0;*/
+	font-size:0.78vw;	/*font-size:16px;*/
 	font-weight:600;
 	text-transform:uppercase;
 	border-bottom:1px solid #db2b36;
 }
 
 .owl-carousel .owl-item .time{
-	margin:0 0 15px;
-	padding:10px 0;
-	font-size:16px;
+	margin:0 0 4%; /*margin:0 0 15px;*/
+	padding:2.7% 0;	/*padding:10px 0;*/
+	font-size:0.78vw;	/*font-size:16px;*/
 	font-weight:600;
 	text-transform:uppercase;
 	border-bottom:1px solid #db2b36;
 }
 
 .owl-carousel .owl-item .calender-btn{
-	padding:5px 10px;
+	padding:1.5% 2.5%;	/*padding:5px 10px;*/
 	background:#db2b36;
 	border:1px solid #db2b36;
 	color:#fff;
-	font-size:14px;
+	font-size:0.7vw;	/*font-size:14px;*/
 	font-weight:600;
 	display:inline-block;
 	cursor:pointer;
@@ -102,11 +102,11 @@
 }
 
 .owl-carousel .owl-item .details-btn{
-	padding:5px 10px;
+	padding:1.5% 2.5%;	/*padding:5px 10px;*/
 	background:#fff;
 	border:1px solid #db2b36;
 	color:#db2b36;
-	font-size:14px;
+	font-size:0.7vw;	/*font-size:14px;*/
 	font-weight:600;
 	display:inline-block;
 	cursor:pointer;
@@ -163,10 +163,10 @@
 
 #owl-demo .item{
 	margin:0;
-	padding:15px;
+	padding:4%;
 	width:100%;
 	height:auto;
-	max-width:377px;
+	max-width:417px;
 	max-height:270px;
 	background:#ddd;
 	color:#000;

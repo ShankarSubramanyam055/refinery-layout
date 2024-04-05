@@ -39,7 +39,7 @@ body{
 	margin:0;
 	padding:0;
 	font-family:"Segoe UI", Tahoma, sans-serif;
-	font-size:15px;
+	font-size:0.8vw;	/*font-size:15px;*/
 	color:#000;
 }
 
@@ -54,7 +54,7 @@ a:hover, a.active{
 }
 
 p{
-	margin:0 0 15px;
+	margin:0 0 1.723%;	/*margin:0 0 15px;*/
 	padding:0;
 	line-height:25px;
 }
@@ -146,11 +146,16 @@ p{
 #main, .main{
 	margin:0 auto;
 	width:95%;
-	max-width:1731px;
+	max-width:1798px;
 	overflow:hidden;
 }
 
 header{
+	overflow:hidden;
+}
+
+header .inner_40{
+	padding:0.263%;
 	overflow:hidden;
 }
 
@@ -170,9 +175,9 @@ header .top_red .two-cols:nth-child(2){
 }
 
 header .top_red{
-	padding:5px;
+	padding:0px;
 	width:100%;
-	font-size:14px;
+	font-size:0.7vw;	/*font-size:14px;*/
 	font-weight:600;
 	background:#db2b36;
 	color:#fff;
@@ -181,7 +186,7 @@ header .top_red{
 }
 
 header .top_red a{
-	margin:0 20px;
+	margin:0 2%;	/*margin:0 20px;*/
 	color:#fff;
 	text-decoration:none;
 	display:inline-block;
@@ -196,11 +201,11 @@ header .top_red a:nth-child(4){
 }
 
 header .blackbar{
-	padding:10px 0;
+	padding:0.5% 0;	/*padding:10px 0;*/
 	background:#000;
 	color:#fff;
 	line-height:normal;
-	display:flex;
+	/*display:flex;*/
 	overflow:hidden;
 }
 
@@ -213,23 +218,25 @@ header .blackbar .main{
 }
 
 header .blackbar a.logo, header .blackbar a.logo:hover{
-	margin:0 50px 0 0;
-	padding:40px;
+	margin:0 3% 0 0;	/*margin:0 50px 0 0;*/
+	/*padding:0 4%;*/	padding:40px;
 	background:url(../images/logo.png) center center no-repeat;
 	text-decoration:none;
 	display:inline-block;
 	position:relative;
-	float:left;
+	background-size:cover;
+	-moz-background-size:cover;
+	-webkit-background-size:cover;
 }
 
 header .blackbar .co_name{
-	font-size:54px;
+	font-size:2.8vw;	/*font-size:54px;*/
 	font-weight:bold;
 	text-transform:uppercase;
 	color:#fff;
 	display:inline-block;
 	position:relative;
-	float:left;
+	/*float:left;*/
 	overflow:hidden;
 }
 
@@ -304,14 +311,15 @@ header #menubar ul{
 }
 
 header #menubar li{
+	padding:0.549% 2.74%;
 	list-style-type:none;
 	display:inline-block;
 }
 
 header #menubar li a{
-	padding:10px 40px;
+	/*padding:10px 50px;*/
 	color:#000;
-	font-size:15px;
+	font-size:0.8vw;	/*font-size:15px;*/
 	font-weight:600;
 	text-transform:capitalize;
 	display:inline-block;
@@ -321,16 +329,16 @@ header #menubar li a:hover, header #menubar li a.active{
 	color:#db2b36;
 }
 
-header #menubar li a:nth-child(1){
+/*header #menubar li a:nth-child(1){
 	padding-left:0;
 }
 
 header #menubar li a:nth-child(9){
 	padding-right:0;
-}
+}*/
 
 header #banner{
-	padding:190px 0px;
+	padding:10% 0;	/*padding:190px 0px;*/
 	background:url(../images/banner.jpg) no-repeat center center;
 	background-size:cover;
 	-moz-background-size:cover;
@@ -398,14 +406,14 @@ header #banner .videosize {
 }
 
 header #banner .main{
-	padding:0px 90px;
+	padding:0px 0px;
 	position:relative;
 	z-index:2;
 }
 
 header #banner .point1{
-	margin:0 0 15px;
-	font-size:18px;
+	margin:0 0 0.84%; /*margin:0 0 15px;*/
+	font-size:1.2vw;	/*font-size:18px;*/
 	font-weight:600;
 	color:#fff;
 	text-transform:capitalize;
@@ -415,8 +423,8 @@ header #banner .point1{
 }
 
 header #banner .point2{
-	margin:0 0 35px;
-	font-size:72px;
+	margin:0 0 1.95%; /*margin:0 0 35px;*/
+	font-size:3.8vw;	/*font-size:72px;*/
 	font-weight:bold;
 	color:#fff;
 	text-transform:capitalize;
@@ -426,8 +434,8 @@ header #banner .point2{
 }
 
 header #banner .point3{
-	margin:0 0 50px;
-	font-size:16px;
+	margin:0 0 2.785%; /*margin:0 0 50px;*/
+	font-size:1vw;	/*font-size:16px;*/
 	font-weight:600;
 	color:#fff;
 	text-transform:none;
@@ -437,10 +445,10 @@ header #banner .point3{
 }
 
 header #banner .btn{
-	padding:10px 15px;
+	padding:0.5% 0.9%;	/*padding:10px 15px;*/
 	background:#fff;
 	color:#db2b36;
-	font-size:14px;
+	font-size:0.65vw;	/*font-size:12px;*/
 	font-weight:600;
 	border:1px solid #db2b36;
 	cursor:pointer;
@@ -468,29 +476,29 @@ section{
 }
 
 .inner_40{
-	padding:40px;
+	padding:2.11%;	/*padding:40px;*/
 	overflow:hidden;
 }
 
 h1, h2, h3, h4, h5, h6{
-	margin:0 0 25px;
+	margin:0 0 1.372%;	/*margin:0 0 25px;*/
 	padding:0;
 	text-transform:capitalize;
 }
 
 h4{
-	font-size:33px;
+	font-size:1.7vw;	/*font-size:33px;*/
 	font-weight:600;
 }
 
 h6{
-	font-size:20px;
+	font-size:1vw;	/*font-size:20px;*/
 	font-weight:600;
 }
 
 .three-cols{
 	width:30%;
-	max-width:520px;
+	max-width:550px;
 	float:left;
 }
 
@@ -499,17 +507,17 @@ h6{
 }
 
 .three-cols img{
-	margin:0 auto 25px;
+	margin:0 auto 4.575%;	/*margin:0 auto 25px;*/
 	width:100%;
 	height:auto;
-	max-width:520px;
-	max-height:293px;
+	max-width:550px;
+	max-height:308px;
 	display:block;
 }
 
 .three-cols span{
-	margin:0 0 25px;
-	font-size:15px;
+	margin:0 auto 4.575%;	/*margin:0 auto 25px;*/
+	font-size:0.8vw;	/*font-size:15px;*/
 	font-weight:600;
 	color:#555;
 	display:block;
@@ -521,10 +529,10 @@ h6{
 }
 
 .three-cols .btn{
-	padding:10px 15px;
+	padding:1.5% 2.5%;	/*padding:10px 15px;*/
 	background:#000;
 	color:#db2b36;
-	font-size:12px;
+	font-size:0.65vw;	/*font-size:12px;*/
 	font-weight:bold;
 	border:1px solid #db2b36;
 	cursor:pointer;
@@ -542,11 +550,21 @@ h6{
 .l-grey_bg{
 	background:#eee;
 	color:#000;
+	overflow:hidden;
+}
+
+.l-grey_bg .full-col{
 	display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
 	display: -ms-flexbox;  /* TWEENER - IE 10 */
 	display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+	display: -moz-flex;
 	display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
 }
+
+.l-grey_bg .two-cols{
+	flex-basis:100%;
+}
+
 
 .l-grey_bg .two-cols:nth-child(2){
 	padding:0px;
@@ -554,11 +572,14 @@ h6{
 	background-size:cover;
 	-moz-background-size:cover;
 	-webkit-background-size:cover;
-	height:100%;
 }
 
 .l-grey_bg .main{
-	width:90%;
+	width:100%;
+}
+
+.l-grey_bg h1, .l-grey_bg h2, .l-grey_bg h3, .l-grey_bg h4, .l-grey_bg h5, .l-grey_bg h6, .l-red_bg h1, .l-red_bg h2, .l-red_bg h3, .l-red_bg h4, .l-red_bg h5, .l-red_bg h6 {
+	margin:0 0 2.87%;	/*margin:0 0 25px;*/
 }
 
 .carousel-item-block{
@@ -665,14 +686,19 @@ h6{
 .l-red_bg{
 	background:#e04b54;
 	color:#fff;
+	overflow:hidden;
+}
+
+.l-red_bg .full-col{
 	display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
 	display: -ms-flexbox;  /* TWEENER - IE 10 */
 	display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+	display: -moz-flex;
 	display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
 }
 
 .l-red_bg .two-cols{
-	height:100%;
+	flex-basis:100%;
 }
 
 .l-red_bg .two-cols:nth-child(1){
@@ -684,27 +710,32 @@ h6{
 }
 
 .l-red_bg .main{
-	width:90%;
+	width:100%;
 	height:100%;
+}
+
+.l-grey_bg .inner_40, .l-red_bg .inner_40{
+	padding:4.21%;
 }
 
 /*************** commitment list ****************/
 ul.commitment-list{
 	margin:0;
 	padding:0;
+	overflow:hidden;
 }
 
 .commitment-list li{
 	margin:0 2%;
-	padding:15px;
-	width:25%;
+	padding:0.825%;	/*padding:15px;*/
+	width:22%;
 	height:auto;
-	max-width:377px;
+	max-width:405px;
 	max-height:270px;
 	background:#ddd;
 	color:#000;
 	border-left:4px solid #db2b36;
-	font-size:16px;
+	font-size:0.78vw;	/*font-size:16px;*/
 	font-weight:600;
 	text-transform:capitalize;
 	list-style-type:none;
@@ -736,7 +767,7 @@ ul.commitment-list{
 }
 
 footer{
-	font-size:12px;
+	font-size:0.65vw;	/*font-size:12px;*/
 	font-weight:600;
 	background:#000;
 	border-top:5px solid #db2b36;
@@ -746,13 +777,14 @@ footer{
 footer ul{
 	margin:0;
 	padding:0;
+	overflow:hidden;
 }
 
 footer li{
 	margin:0 2%;
 	width:13.33333333%;
-	max-width:231px;
-	font-size:12px;
+	max-width:245px;
+	font-size:0.65vw;	/*font-size:12px;*/
 	font-weight:600;
 	color:#fff;
 	text-transform:capitalize;
@@ -771,7 +803,7 @@ footer li:nth-child(6){
 
 footer li .head{
 	margin:0 0 10px;
-	font-size:18px;
+	font-size:0.96vw;	/*font-size:18px;*/
 	font-weight:600;
 	text-transform:uppercase;
 	border-bottom:1px solid #db2b36;
@@ -799,8 +831,8 @@ footer li li a:hover, footer li li a.active{
 }
 
 footer .copyright{
-	padding:10px;
-	font-size:10px;
+	padding:0.526%;	/*padding:10px;*/
+	font-size:0.5vw;	/*font-size:10px;*/
 	font-weight:600;
 	background:#333;
 	color:#fff;
@@ -820,7 +852,7 @@ footer .copyright a:hover, footer .copyright a.active{
 
 footer .copyright .three-cols{
 	width:30%;
-	max-width:520px;
+	max-width:550px;
 	float:left;
 }
 
@@ -854,3 +886,12 @@ a.fa-twitter:hover, a.fa-facebook:hover, a.fa-linkedin:hover, a.fa-youtube:hover
 	max-height:650px;
 	display:block;
 }*/
+
+section .main, header .blackbar .main, header .top_red .main, header #menubar .main, footer .main{
+	width:100%;
+	max-width:1823px;
+}
+
+#slickmenu, .slicknav_menu{
+	display:none;
+}

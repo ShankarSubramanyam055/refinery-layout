@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	header #menubar li { 
+		padding:0.549% 2.67%; 
+	}
+	.l-grey_bg .two-cols, .l-red_bg .two-cols {
+		flex-basis: 100%;
+		display: inline-flex;
+		position: relative;
+		z-index: 2;
+	} 
+}

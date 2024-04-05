@@ -6,11 +6,11 @@
   background:#eeeeee;
 }
 .faq_wrapper {
-  max-width: 800px;
+  max-width: 100%; /*max-width: 800px;*/
   margin: auto;
 }
 .faq_item {
-  margin-bottom: 10px;
+  margin-bottom:1.15%; /*margin-bottom: 10px;*/
 }
 .faq_title {
   padding: 5px 0px;
@@ -20,7 +20,7 @@
   font-weight: 600;
   cursor: pointer;
   font-family:"Segoe UI", Tahoma, sans-serif;
-  font-size: 16px;
+  font-size:0.78vw;	/*font-size:16px;*/
   position: relative;
 }
 .faq_title span.arrow {
@@ -40,7 +40,7 @@
   transform: rotate(180deg);
 }
 .faq_details {
-  font-size: 14px;
+  font-size:0.65vw;	/*font-size: 14px;*/
   padding: 5px 0;
   background: #eee;
   display: none;
